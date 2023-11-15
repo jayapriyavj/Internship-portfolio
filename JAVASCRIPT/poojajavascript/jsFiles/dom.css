@@ -1,0 +1,30 @@
+.card-block{
+    height: 650px;
+    width:1400px;
+    /* border:2px solid red; */
+    margin:0 auto;
+    display:flex;
+    align-items:center;
+    justify-items:space-evenly; 
+    background-color: grey;
+}
+.car,.bike,.auto{
+    margin:auto auto;
+    height: 500px;
+    width:350px;
+    /* border:2px solid red; */
+    background-color: rgb(66,62,62);
+    color:aliceblue;
+    font-size:x-large;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items:space-around; 
+    box-shadow: 2px 3px 5px black;
+}
+input{
+    background-color: rgb(231,98,98);
+    color:white;
+    font-size:x-large;
+}
+

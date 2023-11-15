@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./dom.css">
+</head>
+<body>
+    <h1>YOUR TRAVEL!</h1>
+    <div class="card-block">
+        <div class="car">
+            <img src="https://cdn.pixabay.com/photo/2017/03/27/14/56/auto-2179220__480.jpg" alt="CAR" height="250px" width="300px">
+            <h5>ENTER KILOMETER</h5>
+            
+            <input type="text" id="cdata" placeholder="number only" ><br>
+            <input type="submit" onclick="carkms()">
+       
+            <div id="costc"></div>
+            <button>BOOK NOW!</button>
+       
+    </div>
+    <div class="bike">
+        <img src="https://cdn.pixabay.com/photo/2016/04/07/06/53/bmw-1313343__480.jpg" alt="bike" height="250px" width="300px">
+        <h5>ENTER KILOMETER</h5>
+           
+        <input type="text" id="bdata"  placeholder="number only"><br>
+          <input type="submit" onclick="bikekms()">
+        
+            <div id="costb"></div>
+            <button>BOOK NOW!</button>
+    </div>
+    <div class="auto">
+        <img src="https://cdn.pixabay.com/photo/2017/03/20/08/05/rickshaw-2158447__480.jpg" alt="auto" height="250px" width="300px">
+        <h5>ENTER KILOMETER</h5>
+        
+        <input type="text" id="adata"  placeholder="number only"><br>
+          <input type="submit" onclick="autokms()">
+       
+       
+            <div id="costa"></div>
+            <button>BOOK NOW!</button>
+    </div>
+</div>
+    <script src="./dom.js"></script>
+</body>
+</html>
